@@ -19,18 +19,7 @@
 
           <div class="inner-blue-circle"> </div>
 
-          <div class="spoke1"> </div>
-          <div class="spoke2"> </div>
-          <div class="spoke3"> </div>
-          <div class="spoke4"> </div>
-          <div class="spoke5"> </div>
-          <div class="spoke6"> </div>
-          <div class="spoke7"> </div>
-          <div class="spoke8"> </div>
-          <div class="spoke9"> </div>
-          <div class="spoke10"> </div>
-          <div class="spoke11"> </div>
-          <div class="spoke12"> </div>
+          <div class="spoke"> </div>
         </div>
       </div>
 
@@ -38,4 +27,15 @@
       </div>
     </div>
   </body>
+  
+  <script>
+    const blueCircle = document.getElementsByClassName("blue-circle")[0]
+    
+    for (let i = 0; i < 12; i++) {
+      const spoke = document.createElement('div');
+      spoke.classList.add("spoke");
+      spoke.style.transform = `rotate(${i*15}deg)`;
+      blueCircle.append(spoke);
+    }
+  </script>
 </html>
