@@ -51,7 +51,7 @@
   left: 80px;
 }
 
-.spoke1 {
+.spoke {
   background-color: #06038D;
   height: 140px;
   width: 5px;
@@ -60,152 +60,8 @@
   position: absolute;
   top: 20px;
   left: 87.5px;
-
-  transform: rotate(0deg);
 }
 
-.spoke2 {
-  background-color: #06038D;
-  height: 140px;
-  width: 5px;
-  border-radius: 50%;
-
-  position: absolute;
-  top: 20px;
-  left: 87.5px;
-
-  transform: rotate(15deg);
-}
-
-.spoke3 {
-  background-color: #06038D;
-  height: 140px;
-  width: 5px;
-  border-radius: 50%;
-
-  position: absolute;
-  top: 20px;
-  left: 87.5px;
-
-  transform: rotate(30deg);
-}
-
-.spoke4 {
-  background-color: #06038D;
-  height: 140px;
-  width: 5px;
-  border-radius: 50%;
-
-  position: absolute;
-  top: 20px;
-  left: 87.5px;
-
-  transform: rotate(45deg);
-}
-
-.spoke5 {
-  background-color: #06038D;
-  height: 140px;
-  width: 5px;
-  border-radius: 50%;
-
-  position: absolute;
-  top: 20px;
-  left: 87.5px;
-
-  transform: rotate(60deg);
-}
-
-.spoke6 {
-  background-color: #06038D;
-  height: 140px;
-  width: 5px;
-  border-radius: 50%;
-
-  position: absolute;
-  top: 20px;
-  left: 87.5px;
-
-  transform: rotate(75deg);
-}
-
-.spoke7 {
-  background-color: #06038D;
-  height: 140px;
-  width: 5px;
-  border-radius: 50%;
-
-  position: absolute;
-  top: 20px;
-  left: 87.5px;
-
-  transform: rotate(90deg);
-}
-
-.spoke8 {
-  background-color: #06038D;
-  height: 140px;
-  width: 5px;
-  border-radius: 50%;
-
-  position: absolute;
-  top: 20px;
-  left: 87.5px;
-
-  transform: rotate(105deg);
-}
-
-.spoke9 {
-  background-color: #06038D;
-  height: 140px;
-  width: 5px;
-  border-radius: 50%;
-
-  position: absolute;
-  top: 20px;
-  left: 87.5px;
-
-  transform: rotate(120deg);
-}
-
-.spoke10 {
-  background-color: #06038D;
-  height: 140px;
-  width: 5px;
-  border-radius: 50%;
-
-  position: absolute;
-  top: 20px;
-  left: 87.5px;
-
-  transform: rotate(135deg);
-}
-
-.spoke11 {
-  background-color: #06038D;
-  height: 140px;
-  width: 5px;
-  border-radius: 50%;
-
-  position: absolute;
-  top: 20px;
-  left: 87.5px;
-
-  transform: rotate(150deg);
-}
-
-.spoke12 {
-  background-color: #06038D;
-  height: 140px;
-  width: 5px;
-  border-radius: 50%;
-
-  position: absolute;
-  top: 20px;
-  left: 87.5px;
-
-  transform: rotate(165deg);
-}
 
 .green-strip {
   background-color: #046A38;
